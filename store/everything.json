@@ -1,0 +1,9 @@
+{
+  "name": "everything",
+  "description": "Official MCP test server exercising all protocol features",
+  "transport": "stdio",
+  "command": "npx",
+  "args": ["-y", "@modelcontextprotocol/server-everything"],
+  "tags": ["demo"],
+  "enabled": true
+}

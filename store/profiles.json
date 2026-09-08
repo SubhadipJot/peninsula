@@ -1,0 +1,4 @@
+{
+  "default": ["everything"],
+  "fullstack": ["everything", "github", "linear"]
+}

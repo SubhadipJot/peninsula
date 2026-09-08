@@ -1,0 +1,12 @@
+{
+  "name": "github",
+  "description": "GitHub repos, issues, PRs",
+  "transport": "stdio",
+  "command": "npx",
+  "args": ["-y", "@modelcontextprotocol/server-github"],
+  "env": {
+    "GITHUB_PERSONAL_ACCESS_TOKEN": "{env:GITHUB_TOKEN}"
+  },
+  "tags": ["vcs"],
+  "enabled": false
+}

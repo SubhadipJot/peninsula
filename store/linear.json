@@ -1,0 +1,11 @@
+{
+  "name": "linear",
+  "description": "Example of a remote (hosted) MCP server",
+  "transport": "http",
+  "url": "https://mcp.linear.app/mcp",
+  "headers": {
+    "Authorization": "Bearer {env:LINEAR_API_KEY}"
+  },
+  "tags": ["issues"],
+  "enabled": false
+}
